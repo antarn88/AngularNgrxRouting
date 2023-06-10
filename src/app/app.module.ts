@@ -12,7 +12,6 @@ import { HeaderComponent } from './components/header/header.component';
 @NgModule({
   declarations: [AppComponent, HeaderComponent],
   imports: [BrowserModule, AppRoutingModule, StoreModule.forRoot({ data: DataReducer }), EffectsModule.forRoot([DataEffects])],
-  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
